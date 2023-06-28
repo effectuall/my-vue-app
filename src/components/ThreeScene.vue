@@ -1,7 +1,11 @@
 <template>
-    <div>   
+    <div class="scene"> 
+    <div id="info">
+                <a>elements for interactions </a>  
+            </div>
+       
         <div class="webgl" ref="webgl">
-             
+         
         </div>
     </div>
 </template>

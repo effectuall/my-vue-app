@@ -5,15 +5,42 @@
     box-sizing: border-box;
 }
 
-html,
+/* html,
 body
 {
     overflow: hidden;
+    
+} */
+
+.scene {
+    background-color: #42b983;
+    left: 10%;
+}
+#info {
+  display: block;
+ position: absolute;
+ top: 0;
+ width: 250px;
+ left: 0;
+ z-index: 1;
+ padding: 1em;
+ color: #fff;
+ background: rgba(0, 0, 0, 0.8);
+ border-radius: .5em;
+ font-size: 12px;
+ line-height: 1.2;
+ transition: opacity .5s;
+ overflow-y: auto;
+ text-align: center;
+ float: left;
 }
 
 .webgl
 {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 600px;
+    left: 10%;
 }
