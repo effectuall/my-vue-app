@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^9.7.2",
+    "three": "^0.153.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
